@@ -1,0 +1,33 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real peso, altura, imc
+
+		escreva ("Vamos calcular seu IMC? \n")
+
+		escreva ("Qual sua altura, em metros: ")
+		leia (altura)
+
+		escreva ("Qual seu peso, em kg: ")
+		leia (peso)
+
+		imc= peso/(altura*altura)
+
+		se (imc<24){
+			escreva ("Seu IMC é ", imc, " e está IDEAL, PARABÉNS!!!")
+		}
+
+		se (imc>24 e imc<30) {
+			escreva ("Seu IMC é ", imc, " e você está com sobrepeso, cuidado.")
+		}
+
+		se (imc>30){
+			escreva("Seu IMC é ", imc, " e você está com obesidade, procure ajuda médica!!!")
+		}
+			
+	
+		
+	}
+}
