@@ -1,0 +1,35 @@
+programa
+ 
+{
+	
+	funcao inicio()
+	{
+		real nota1, nota2, nota3, media
+		
+
+		escreva ("Bem vindos ao sistema de Cálculos de Média. Para ser APROVADO, será necessário tirar nota acima de 7 \n")
+		
+		escreva ("Insira sua primeira nota: ")
+		leia (nota1)
+
+		escreva ("Agora sua segunda nota: ")
+		leia (nota2)
+
+		escreva ("E por ultimo sua terceira nota: ")
+		leia (nota3)
+
+		media = (nota1 + nota2 + nota3)/3
+
+		se (media >= 7){
+			escreva ("Parabéns voce foi aprovado e sua média foi: ", media)
+		}
+		
+		senao {
+			escreva ("Você foi reprovado, pois sua média foi: ", media)
+		}
+				
+
+				
+			
+	}
+}
